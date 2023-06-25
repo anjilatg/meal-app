@@ -1,7 +1,7 @@
 <template>
   <div class="bg-yellow-900">
     <section v-if="pending" >
-      <img src="`assets/images/loading.png" alt="">
+      <img src="~assets/images/loading.gif" alt="">
     </section>
    <section v-else class="container m-auto">
     <section>
