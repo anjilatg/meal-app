@@ -1,7 +1,7 @@
 <template>
     <div class="gap-5 py-5 bg-yellow-900 text-white">
        <section v-if="pending">
-        <h1>loading.....</h1>
+        <img src="~assets/images/loading.png" alt="">
        </section>
        <section v-else>
         <div class=" container m-auto grid grid-cols-6">

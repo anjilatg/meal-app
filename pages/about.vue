@@ -9,9 +9,11 @@
 </script>
 
 <style scoped>
+    @import '~/assets/images/box';
 .box{
     background-image:url('~assets/images/logo.png') ;
-    height: 600px;
+    height: 100vh;
     width: 100%;
+    background-size: cover;
 }
 </style>
