@@ -5,7 +5,7 @@
         class="inline-block mr-4 focus-visible:outline focus-visible:outline-offset focus-visible:rounded-sm shrink-0">
         <img src="~assets/images/nav.png" class="overflow-hidden object-cover h-8 w-80" alt="">
       </a>
-      <div class="ms-auto text-white lg:grid grid-cols-5">
+      <div class="ms-auto text-white">
         <NuxtLink class="me-5 hover:bg-red-700 py-3 px-5 rounded-lg" to="/">Home </NuxtLink>
         <NuxtLink class="me-5 hover:bg-red-700 py-3 px-5 rounded-lg" to="/about">About </NuxtLink>
         <NuxtLink class="me-5 hover:bg-red-700 py-3 px-5 rounded-lg" to="/products">Products</NuxtLink>
