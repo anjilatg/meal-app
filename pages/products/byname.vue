@@ -13,7 +13,7 @@
                 <span><button @click="getUrl(ch)" type="submit" to="/products" class="flex py-2 px-2 rounded-lg hover:bg-green-800 shadow-lg bg-green-700"><SfIconSearch />search</button></span>
             </div>
             <section>
-                <div class="container m-auto grid grid-cols-4 gap-5 py-3">
+                <div class="container m-auto lg:grid grid-cols-4 gap-5 py-3">
                     <div v-for="(p, index) in meal.meals" :key="index">
                         <NuxtLink :to="`/products/${p.idMeal}`">
                             <ProductCard :product="p" />
