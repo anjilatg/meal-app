@@ -6,13 +6,13 @@
             </div>
             <div class="col-span-3">
                 <div class="ms-auto text-white">
-                    <NuxtLink to="/">Home </NuxtLink>
-                    <NuxtLink to="/about">About </NuxtLink>
-                    <NuxtLink to="/products">Products</NuxtLink>
-                    <NuxtLink to="/products/byname">Contact</NuxtLink>
-                    <NuxtLink to="/products/byname">
+                    <a to="/">Home </a>
+                    <a to="/about">About </a>
+                    <a to="/products">Products</a>
+                    <a to="/products/byname">Contact</a>
+                    <a to="/products/byname">
                       <SfIconSearch />Search
-                    </NuxtLink>
+                    </a>
                   </div>
             </div>
             <div class="col-span-2 text-center"> 
