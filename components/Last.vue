@@ -1,7 +1,7 @@
 <template>
     <div class="w-full h-250px bg-yellow-950 py-5">
-        <div class="grid grid-cols-14 container m-auto text-white">
-            <div class="col-span-6 flex text-center">
+        <div class="grid grid-cols-12 container m-auto text-white">
+            <div class="col-span-4 flex text-center">
                 <img src="~assets/images/logo.png" class="overflow-hidden object-cover h-38 w-60" alt="">
             </div>
             <div class="col-span-2">
