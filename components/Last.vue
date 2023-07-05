@@ -5,7 +5,6 @@
                 <img src="~assets/images/logo.png" class="overflow-hidden object-cover h-38 w-60" alt="">
             </div>
             <div class="col-span-3">
-                <div class="ms-auto text-white">
                     <ol>
                         <li>
                             <NuxtLink to="/">Home </NuxtLink>
@@ -17,7 +16,6 @@
                             </NuxtLink>
                         </li>
                     </ol>
-                </div>
             </div>
             <div class="col-span-2 text-center">
                 <h1 class="text-lg">We Accept</h1>
