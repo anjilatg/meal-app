@@ -5,7 +5,7 @@
     </section>
    <section v-else class="container m-auto">
     <section>
-      <div class="lg:grid grid-cols-10 py-6">
+      <div class="grid lg:grid-cols-10 md:grid-cols-2 py-6">
         <div class="col-span-2">
           <img src="~assets/images/logo.png" alt="">
         </div>
