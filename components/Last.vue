@@ -4,7 +4,7 @@
             <div class="col-span-4 flex text-center">
                 <img src="~assets/images/logo.png" class="overflow-hidden object-cover h-38 w-60" alt="">
             </div>
-            <div class="col-span-2">
+            <div class="col-span-2 py-2">
                     <ol>
                         <li>
                             <NuxtLink to="/">Home </NuxtLink>
@@ -25,7 +25,7 @@
                         </li>
                     </ol>
             </div>
-            <div class="col-span-2 text-center">
+            <div class="col-span-2 text-center py-2">
                 <h1 class="text-lg">We Accept</h1>
                 <ol>
                     <li><a href="">Esewa</a></li>
