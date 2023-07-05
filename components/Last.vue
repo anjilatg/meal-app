@@ -1,10 +1,10 @@
 <template>
     <div class="w-full h-250px bg-yellow-950 py-5">
-        <div class="grid grid-cols-12 container m-auto text-white">
+        <div class="grid lg:grid-cols-12  md:grid-cols-6 container m-auto text-white">
             <div class="col-span-4 flex text-center">
                 <img src="~assets/images/logo.png" class="overflow-hidden object-cover h-38 w-60" alt="">
             </div>
-            <div class="col-span-2 py-2">
+            <div class="col-span-2 text-center py-2">
                 <h1  class="text-lg">Quick Links</h1>
                     <ol>
                         <li>
