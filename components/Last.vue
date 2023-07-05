@@ -6,11 +6,11 @@
             </div>
             <div class="col-span-3">
                 <div class="ms-auto text-white">
-                    <NuxtLink class="me-5 hover:bg-red-700 py-3 px-5 rounded-lg" to="/">Home </NuxtLink>
-                    <NuxtLink class="me-5 hover:bg-red-700 py-3 px-5 rounded-lg" to="/about">About </NuxtLink>
-                    <NuxtLink class="me-5 hover:bg-red-700 py-3 px-5 rounded-lg" to="/products">Products</NuxtLink>
-                    <NuxtLink class="me-5 hover:bg-red-700 py-3 px-5 rounded-lg" to="/products/byname">Contact</NuxtLink>
-                    <NuxtLink class="me-5 bg-blue-800 hover:bg-blue-900 py-3 px-5 rounded-lg" to="/products/byname">
+                    <NuxtLink to="/">Home </NuxtLink>
+                    <NuxtLink to="/about">About </NuxtLink>
+                    <NuxtLink to="/products">Products</NuxtLink>
+                    <NuxtLink to="/products/byname">Contact</NuxtLink>
+                    <NuxtLink to="/products/byname">
                       <SfIconSearch />Search
                     </NuxtLink>
                   </div>
