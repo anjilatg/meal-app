@@ -26,7 +26,7 @@
     <hr>
     <section class="py-5 container m-auto">
       <h1 class="text-4xl m-3 text-white font-serif text-center">List Of All Category</h1>
-      <div class="container m-auto grid lg:grid-cols-4 md:col-span-2 gap-5 py-5">
+      <div class="container m-auto grid lg:grid-cols-4 md:grid-cols-2 gap-5 py-5">
         <div v-for="(c, index) in cate.categories" :key="index">
           <NuxtLink :to="`/categories/${c.idCategory}`">
             <CategoryCard :category="c" />
