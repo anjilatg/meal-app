@@ -4,7 +4,7 @@
         <img src="~assets/images/loading.gif" alt="">
        </section>
        <section v-else>
-        <div class=" container m-auto lg:grid grid-cols-6">
+        <div class=" container m-auto grid lg:grid-cols-6 md:grid-cols-3">
             <div class=" col-span-2">
                 <h1 class="text-2xl font-semibold py-3 font-serif ">{{meal.meals[0].strMeal}}</h1>
                 <img :src="meal.meals[0].strMealThumb" class="rounded-lg" alt="">

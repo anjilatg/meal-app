@@ -26,7 +26,7 @@
                 </div>
             </section>
             <section>
-                <div class="container m-auto lg:grid grid-cols-4 gap-5 py-3">
+                <div class="container m-auto grid lg:grid-cols-4  md:grid-cols-2 gap-5 py-3">
                     <div v-for="(p, index) in data.meals" :key="index">
                         <NuxtLink :to="`/products/${p.idMeal}`">
                             <ProductCard :product="p" />
